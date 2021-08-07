@@ -98,9 +98,11 @@ public class ClsProrrateo {
 
         }
 
+        System.out.println("Unidades \t|| Descripción \t|| Valor \t|| Gasto Valor \t|| Gasto Peso \t|| Costo Unidad \t|| Costo Total ");
+ 
         for (int x = 0; x < facturadetail.length; x++) {
             for (int y = 0; y < facturadetail[x].length; y++) {
-                System.out.print(facturadetail[x][y]);
+                System.out.print(facturadetail[x][y] + " ");
 
             }
             System.out.println("\n");
